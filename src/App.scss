@@ -1,0 +1,18 @@
+@import 'carbon-components/scss/globals/scss/styles.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+
+$feature-flags: (
+  ui-shell: true,
+);
+
+.landing-page__heading {
+  @include carbon--type-style('productive-heading-05');
+  @include carbon--font-weight('semibold');
+}
+
+.logo {
+  max-height: 35px;
+}

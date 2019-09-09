@@ -14,7 +14,6 @@ import {
   HeaderName,
   HeaderNavigation,
 } from 'carbon-components-react/lib/components/UIShell';
-import HeaderContainer from "carbon-components-react/lib/components/UIShell/HeaderContainer";
 import { Carousel } from 'react-responsive-carousel';
 import { Player } from 'video-react';
 import logo from './images/stanger-things_raw.png';

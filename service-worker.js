@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stranger-things-2019/precache-manifest.8f8e42d28f47fc774da63c6f86e7170f.js"
+  "/stranger-things-2019/precache-manifest.2713d2df939fe1e4d9520ed44cede11a.js"
 );
 
 self.addEventListener('message', (event) => {

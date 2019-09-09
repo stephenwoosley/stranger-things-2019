@@ -9,6 +9,9 @@
 $feature-flags: (
   ui-shell: true,
 );
+img {
+  max-height: 435px;
+}
 
 .landing-page__heading {
   @include carbon--type-style('productive-heading-05');
@@ -110,7 +113,12 @@ $feature-flags: (
   border-radius: 0;
   opacity: 1;
   bottom: 0px;
-  width: 100%;
+  // width: 100%;
+}
+
+.slide .selected {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes fadeinout {

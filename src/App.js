@@ -180,16 +180,20 @@ class App extends React.Component {
             <div className='bx--col-lg-6 image-slider'>
               <Carousel showIndicators={false}>
                   <div>
-                      <img src={this.state.image} alt='slider' />
-                      <p className='legend'>Legend 1</p>
+                      <img src={this.state.contentData.gallery[0].src} alt='slider' />
+                      <p className='legend'>{this.state.contentData.gallery[0].text}</p>
                   </div>
                   <div>
-                      <img src={this.state.image} alt='slider' />
-                      <p className='legend'>Legend 2</p>
+                      <img src={this.state.contentData.gallery[1].src} alt='slider' />
+                      <p className='legend'>{this.state.contentData.gallery[1].text}</p>
                   </div>
                   <div>
-                      <img src={this.state.image} alt='slider' />
-                      <p className='legend'>Legend 3</p>
+                      <img src={this.state.contentData.gallery[2].src} alt='slider' />
+                      <p className='legend'>{this.state.contentData.gallery[2].text}</p>
+                  </div>
+                  <div>
+                      <img src={this.state.contentData.gallery[3].src} alt='slider' />
+                      <p className='legend'>{this.state.contentData.gallery[3].text}</p>
                   </div>
               </Carousel>
             </div>
